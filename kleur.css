@@ -1,0 +1,121 @@
+:root {
+    --white: #ffffff;
+    --blueberry: #050542;
+    --turquoise:#66e5bf;
+    --lavender: #a675f5;
+    --attention: #050542;
+    --attention-background: #05054233;
+    --call-to-action: #FFFC86;
+    --rounded:.5rem;
+    --pilled: 2rem;
+    --shadow: .3rem;
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--blueberry);
+}
+
+.kleur{
+     background-color: var(--turquoise);
+    color: var(--blueberry);
+    width: 25em;
+    height: 30em;
+    
+}
+
+
+main > article,
+main > section {
+  margin: 2rem 0 2rem 0;
+  padding: 2rem;
+  background: var(--turquoise);
+  color: var(--blueberry);
+  border-radius: var(--rounded);
+}
+main > article > h2:first-of-type,
+main > section > h2:first-of-type {
+  margin: -2rem 0 2rem -2rem;
+  padding: 0 1rem 1rem 2rem;
+  position: relative;
+  width: fit-content;
+  font-size: calc(1.5rem + 1.5vw);
+  line-height: calc(1.5rem + 1.5vw);
+  color: var(--white);
+  background: var(--blueberry);
+  border-bottom-right-radius: var(--rounded);
+  z-index: 2;
+}
+main > article > h2:first-of-type:before,
+main > section > h2:first-of-type:before,
+main > article > h2:first-of-type:after,
+main > section > h2:first-of-type:after {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  width: var(--rounded);
+  height: calc(2 * var(--rounded));
+  border-top-left-radius: var(--rounded);
+}
+main > article > h2:first-of-type:before,
+main > section > h2:first-of-type:before {
+  top: 0;
+  right: calc(-1 * var(--rounded));
+  box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+}
+main > article > h2:first-of-type:after,
+main > section > h2:first-of-type:after {
+  left: 0;
+  bottom: calc(-2 * var(--rounded));
+  box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+}
+
+.kleur-grid{
+    display: grid;
+    padding: 1em;
+    margin: 0;
+    justify-content: center;
+    grid-template-columns: 10em 10em;
+    grid-row: auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    
+}
+
+
+section.kleur article div {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--white);
+    border-radius: var(--rounded);
+}
+.kleur-box1 {
+    background-color: var(--white);
+  }
+  
+  .kleur-box2 {
+    background-color: var(--blueberry);
+  }
+  
+  .kleur-box3 {
+    background-color: var(--turquoise);
+  }
+  
+  .kleur-box4 {
+    background-color: var(--lavender);
+  }
+ article h3,
+ article p {
+
+  font-size: 1rem;
+  font-weight: normal;
+  background-color: var(--turquoise);
+  margin: 0;
+  padding: 0;
+}
+
+ article h3 {
+  font-size: .4rem;
+}
+
+  
