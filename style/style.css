@@ -1,0 +1,656 @@
+@media only screen and (max-width: 140em)  {
+ 
+ body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:900;
+ margin-top: 3em;
+    margin:0;
+    background-color: #050542;
+ }
+
+ 
+ header{
+     display:flex;
+     gap:1em;
+     position: fixed;
+     
+ background-color: #050542;
+ 
+  height:100%;
+ 
+ margin-top: 5em;
+}
+ 
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.Werkwijze{
+     display:grid;
+     grid-template-columns: 1fr;
+     font-family: 'Roboto', sans-serif;
+    gap:1em;
+    font-size:medium;
+}
+.Werkwijze a{
+    color:#050542;
+    font-size:medium;
+}
+ .WerkwijzeFoto{
+     margin-top:1.4em;
+     min-width: 7em;
+     max-width: 7em;
+         min-height:19em;
+         max-height:19em;
+ 
+ } 
+ .WerkwijzeSubSection{
+     display:flex;
+ }
+ .WerkwijzeSubSection > h4{
+   font-size:medium;
+ }
+logo{
+  display:flex; 
+  position:absolute;
+  float: left;
+    margin-left:3em;
+   background-color: #050542;
+ margin-top: -12em;
+  min-width: 100%;
+  color:#050542;
+ 
+}
+details summary::-webkit-details-marker { display:none; }
+.ImageStudenten{
+  max-width: 5em;
+  max-height: 5em;
+}
+.HVA{
+    margin-top:2em;
+    margin-bottom:1em;
+     margin-left: 3em;
+     
+  
+    color:#050542;
+    min-width:10em;
+    max-width: 9em;
+    mix-blend-mode: screen ;
+  
+ 
+}
+ 
+ 
+.LogoSpan{
+      
+     margin-left:10em;
+   margin-top: 0.8em;
+      background-color:#050542;
+     color:white;
+   
+   
+ }
+ 
+ .skip_lnk {
+    position: absolute;
+    padding: .5rem 1rem;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 10;
+    transform: translate3d(.125rem, -5rem, 0);
+    transition: transform .3s ease-out;
+  }
+  .skip_lnk:focus {
+    transform: translate3d(.125rem, .125rem, 0);
+    outline: #fff solid .125rem;
+
+}
+#SumId{
+  display:none;
+}
+
+#progressbar{
+
+    position: fixed;  
+    top:0; right:0; 
+    width: 10px;
+     height:100%;
+      background:linear-gradient(to top, #0088ff1a,rgba(64, 224, 208, 0.308)) ; 
+       animation: animate 5s linear infinite; }
+      #progressbar
+       { content:' ';
+         position: absolute; 
+         top:0;
+          left:0; 
+         width:100%; 
+         height:100% ;
+          filter: blur(30px);
+        }
+       
+ nav{
+    margin-top: -12em;
+     margin-left:40em;
+     gap:2em;
+     position:absolute;
+     display:flex;
+     color:#050542;
+     background-color: #050542;
+ }
+ .header nav a{
+     margin-top: 1em;
+     color:#66e5bf;
+     padding:1em;
+     border-radius: 15px; 
+     transition: ease-in-out 0.25s;
+     outline-color: #66e5bf;
+     outline-style: inset;
+     max-height:2em;
+     background-color: #050542;
+    
+ }
+ .header nav a:hover{
+    cursor: pointer;
+    margin-top: 1em;
+    color:#050542;
+    padding:1em;
+    border-radius: 15px; 
+  background-color:#66e5bf;
+    transform:  scaleY(1.07);
+    outline-style: none;
+    max-height:2em;
+}
+main{
+display:flex;
+flex-direction: row;
+margin-top: 8em; 
+padding: 4em;
+background-color:#050542;
+gap: 2em;
+margin-left: 8em;
+}
+.FirstSubSectionOne > h2{
+   margin-left: 0em;
+}
+.FirstSubSectionOne > h2:after{
+    margin-left: 1em;
+         
+        background-color: #66e5bf;
+        color: #66e5bf;
+        font-weight: bold;
+        border-radius:2%;
+        outline: 5px solid #66e5bf; ;
+        content:" ";
+        width: 10rem;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 11.66em solid transparent;
+        border-bottom: 2em solid #66e5bf;
+     
+}
+
+.WerkwijzeH:after{
+    margin-left: 1em;
+         
+        background-color: #66e5bf;
+        color: #66e5bf;
+        font-weight: bold;
+        border-radius:2%;
+        outline: 5px solid #66e5bf; ;
+        content:" ";
+        width: 10rem;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 6.85em solid transparent;
+        border-bottom: 2em solid #66e5bf;
+     
+}
+
+.StudentenWerkH:after{
+    margin-left: 1em;
+         
+        background-color: #66e5bf;
+        color: #66e5bf;
+        font-weight: bold;
+        border-radius:2%;
+        outline: 5px solid #66e5bf; ;
+        content:" ";
+        width: 10rem;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 4.66em solid transparent;
+        border-bottom: 2em solid #66e5bf;
+     
+}
+.Studentenwerk{
+    min-height:40em;
+    display: flex;
+}
+.Studentenwerk > img{
+  min-width: 4em;
+  
+}
+.MicrositesH:after{
+  margin-left: 1em;
+       
+      background-color: #66e5bf;
+      color: #66e5bf;
+      font-weight: bold;
+      border-radius:2%;
+      outline: 5px solid #66e5bf; ;
+      content:" ";
+      width: 10rem;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 3.78em solid transparent;
+      border-bottom: 2em solid #66e5bf;
+   
+}
+.SecondSubSectionOne> h2{
+margin-left: -0.2em;
+}
+.PartnersH:after{
+  margin-left: 2em;
+       
+      background-color: #66e5bf;
+      color: #66e5bf;
+      font-weight: bold;
+      border-radius:2%;
+      outline: 5px solid #66e5bf; ;
+      content:" ";
+      width: 10rem;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 10.9em solid transparent;
+      border-bottom: 2em solid #66e5bf;
+   
+}
+
+ 
+h2,h3{
+    color:white;
+    margin-left: 3em;
+}
+.J{
+    margin-top: -8em;
+    max-width:100%;
+    min-width: 22em;
+    min-heigth:20rem;
+    max-height: 20rem;
+    border-radius: 10%;
+   
+}
+.NavBarSub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavBarSubTwo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+ .navbar {
+    overflow: hidden;
+    background-color: #050542;
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    display:flex;
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-left: 3em;
+ 
+  }
+  
+  
+  .navbar a:hover {
+    cursor: pointer;
+    margin-top: 1em;
+    color:#050542;
+    padding:1em;
+    border-radius: 15px; 
+  background-color:#66e5bf;
+    transform:  scaleY(1.07);
+    outline-style: none;
+    max-height:2em;
+  }
+  
+   
+  .main {
+    margin-top: 30px;  
+  } 
+.PartnerBox img{
+    max-width: 14em;
+    text-decoration: none;
+}
+.PartnerBox ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+article{
+    justify-content: center;
+    align-items: center;
+    color:#050542;
+    padding:1rem;
+    background-color:   #66e5bf;
+    border-radius: 25px;
+    max-width: 20em;
+    min-height:20em;
+    min-width: 30em;
+    font-size:medium;
+
+
+}
+ article h2 , article h4{
+    justify-content: center;
+    align-items: center;
+    Margin-left:1em;
+}
+
+ h1{
+     color:#66e5bf;
+ }
+
+ .MainSectionTwo section h2{
+  justify-content: center;
+  align-items: center;
+    
+ }
+ .MainSectionTwo article {
+    min-width: 20em;
+ 
+
+ }
+ 
+ 
+ .MainSectionTwo{
+     margin-top: -10em;
+ }
+
+ .WerkveldpartnerBox img{
+    max-width: 14em;
+    max-width: 7em;
+    text-decoration: none;
+}
+.WerkveldpartnerBox ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size:medium;
+    margin: 4px 2px;
+    transition: 0.3s;
+    z-index: 10;
+  }
+  #MicrositeBox > li > a{
+    color:#050542;
+    font-size: medium;
+   
+    font-weight:900;
+  }
+}
+
+
+
+
+  
+  @media only screen and (max-width: 35em) and (min-width: 18em)  {
+    .header{
+      display: flex;
+      flex-wrap: wrap;
+flex-direction: column;    
+}
+
+.MicrositeButton{
+  margin-left: 10em;
+  color:white;
+ 
+ 
+}
+#SumId{
+  display:block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color:#050542;
+  border-radius: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: medium;
+  transition: 0.25s ease-in-out;
+ text-align:start;
+  min-width: 3em;
+  min-height: 1.5em;
+  background-color: #ffffff;
+  font-family: roboto;
+  font-weight:900;
+}
+summary{
+  margin-left:4em;
+}
+ 
+.Alist{
+    cursor: pointer;
+     color: #a675f5;
+   
+    border-radius: 5px; 
+    background-color:#a675f5;
+  
+    max-height:1.5em;
+
+}
+    .J{
+    
+    max-width: 2em;
+  }
+    main{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: -3em;
+    gap: 2em;
+    }
+    main > article{
+   
+      max-width: 2em;
+    }
+article{ 
+  min-width: auto;
+      max-width:70%;
+      margin-left:2em;
+     
+    }
+    .PartnerBox > ul{ 
+      display:grid;
+      grid-template-columns: 1fr ;
+      margin-left: -2em;
+    }
+    
+  .WerkveldpartnerBoxList{
+     display:grid;
+     grid-template-columns: 1fr;
+     margin-left: -3em;
+    
+   }
+   .WerkveldpartnerBoxList > li > img{
+     max-width: 5em;
+   }
+
+    .ListBox > li >img{
+      display: flex;
+      margin-left: -3em;
+      width: 50%;
+    height: auto;
+    }
+   
+    .MainSectionTwo{
+      margin-top: 2em;
+      margin-left: -6em;
+    }
+    .MainSectionTwo  section  article{
+      min-width: auto;
+      max-width:65%;
+      margin-left:3.5em;
+    
+    }
+   .FirstSubSectionOne > h2{
+     margin-left: 1.3em;
+   }
+   .FirstSubSectionOne > h2::after{
+    margin-left: 1em;
+         
+    background-color: #66e5bf;
+    color: #66e5bf;
+    font-weight: bold;
+    border-radius:2%;
+    outline: 5px solid #66e5bf ;
+    content:" ";
+    width: 10rem;
+    height: 0;
+    border-left: 50px solid #66e5bf;
+    border-right: 1.95em solid #66e5bf;
+    border-bottom: 2em solid #66e5bf;
+  }
+  .SecondSubSectionOne > h2{
+    
+    margin-left: 1.3em;
+  }
+  .SecondSubSectionOne > h2::after{
+    background-color: #66e5bf;
+    color: #66e5bf;
+    font-weight: bold;
+    border-radius:2%;
+    outline: 5px solid #66e5bf;
+    content:" ";
+    width: 10rem;
+    height: 0;
+    border-left: 50px solid #66e5bf;
+    border-right: 0.99em solid #66e5bf;
+
+  }
+    .WerkwijzeH{
+      margin-left: 5.2em;
+    }
+    .WerkwijzeH:after{
+      margin-left: 1em;
+         
+      background-color: #66e5bf;
+      color: #66e5bf;
+      font-weight: bold;
+      border-radius:2%;
+      outline: 5px solid #66e5bf; ;
+      content:" ";
+      width: 10rem;
+      height: 0;
+      border-left: 50px solid #66e5bf;
+      border-right: 3.8em solid #66e5bf;
+      border-bottom: 2em solid #66e5bf;
+
+    }
+  
+    .StudentenWerkH{
+      margin-left: 5.3em;
+    }
+    .StudentenWerkH::after{
+      margin-left: 1em;
+         
+      background-color: #66e5bf;
+      color: #66e5bf;
+      font-weight: bold;
+      border-radius:2%;
+      outline: 5px solid #66e5bf; ;
+      content:" ";
+      width: 10rem;
+      height: 0;
+      border-left: 50px solid #66e5bf;
+      border-right: 1.52em solid #66e5bf;
+      border-bottom: 2em solid #66e5bf;
+    }
+
+    .ImageStudenten{
+
+      max-width: 5em;
+      max-height: 5em;
+    }
+
+    .MicrositesH{
+      margin-left: 5.3em;
+    }
+    .MicrositesH::after{
+      margin-left: 1em;
+         
+      background-color: #66e5bf;
+      color: #66e5bf;
+      font-weight: bold;
+      border-radius:2%;
+      outline: 5px solid #66e5bf; ;
+      content:" ";
+      width: 10rem;
+      height: 0;
+      border-left: 50px solid #66e5bf;
+      border-right: 0.65em solid #66e5bf;
+      border-bottom: 2em solid #66e5bf;
+
+    }
+    .NavBarSubTwo{
+      display:none;
+    }
+    .HVA{
+ 
+     display: block;
+     block-size: 2em;
+     margin-left: 0em;
+     margin-top: -2em;
+  
+    }
+    .LogoSpan{
+      margin-left: -9.5em;
+      margin-top: 4em;
+    }
+    .ButtonMicrosites{
+      display: block;
+      overflow: visible;
+    }
+    #summary:hover, #detail, #detail:hover {
+      display: block;
+   
+    }
+    #detail {
+      display: none;
+    }
+    
+    details summary::-webkit-details-marker { display:none; }
+    
+    
+    
+  }
+ 

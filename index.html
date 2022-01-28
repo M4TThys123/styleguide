@@ -1,350 +1,269 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./../the-startup-fdnd-styleguide/style/style.css" media="screen">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
 
-<head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
-  <title>FDND Styleguide</title>
-  <meta name="description" content="Styleguide voor FDND" />
-
-  <link rel="canonical" href="https://styleguide.fdnd.nl/" />
-  <meta name="robots" content="index, follow" />
-
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='/fdnd.css'>
-  <link rel="stylesheet" href="/local.css">
-
-  <link rel='icon' type='image/png' href='/favicon.png'>
-
-  <meta property="og:title" content="FDND Styleguide" />
-  <meta property="og:description" content="Styleguide pagina voor de Ad Frontend Design & Development" />
-  <meta property="og:site_name" content="styleguide.fdnd.nl" />
-  <meta property="og:url" content="https://styleguide.fdnd.nl" />
-  <meta property="og:type" content="website" />
-  <link rel="manifest" href="/manifest.json">
-</head>
-
-<body>
-  <header>
-    <h1><abbr title="Frontend Design & Development"><span>FDND</span></abbr> <span>Styleguide</span></h1>
-  </header>
-
-  <nav>
-    <div>
-      <h2>Menu</h2>
-      <ul>
-        <li><a href="#colors">Kleuren</a></li>
-        <li><a href="#layout">Layout</a></li>
-        <li><a href="#typography">Typografie</a></li>
-        <li><a href="#forms">Formulieren</a></li>
-        <li><a href="#imagery">Beeld</a></li>
-        <li><a href="#about">Over</a></li>
-      </ul>
-    </div>
-
-    <a href="#">Back to top</a>
-  </nav>
-
-  <main>
-    <!-- List of colors -->
-    <section id="colors">
-      <h2>Kleuren</h2>
-      <div>
-        <article data-color="ffffff">
-          <h3>White (--white)</h3>
-          <p>#ffffff</p>
-          <div></div>
-        </article>
-
-        <article data-color="050542">
-          <h3>Blueberry (--blueberry)</h3>
-          <p>#050542</p>
-          <div></div>
-        </article>
-
-        <article data-color="66e5bf">
-          <h3>Turqoise (--turquoise)</h3>
-          <p>#66e5bf</p>
-          <div></div>
-        </article>
-
-        <article data-color="a675f5">
-          <h3>Lavender (--lavender)</h3>
-          <p>#a675f5</p>
-          <div></div>
-        </article>
-      </div>
-    </section>
-
-    <!-- List of all layout items -->
-    <section id="layout">
-      <h2>Layout</h2>
-
-      <article>
-        <h3>Flexbox</h3>
-        <p></p>
-      </article>
-
-      <article>
-        <h3>Grid</h3>
-        <p></p>
-      </article>
-    </section>
-
-    <!-- List of all typographic items -->
-    <section id="typography">
-      <h2>Typografie</h2>
-
-      <h2>Heading 2 <em class="note">(1x per section/article)</em></h2>
-      <h3>Heading 3</h3>
-      <h4>Heading 4</h4>
-
-      <p>Dit is een kale alineatekst. De Ad Frontend Design & Development (FDND) is een praktijkgerichte, tweejarige hbo-opleiding waar studenten in worden opgeleid tot Frontend professionals. Frontenders ontwerpen en maken interactieve, toegankelijke toepassingen
-        voor het web. Dit maakt dat een frontender opereert binnen het gebied van software development, interactieontwerp en digitaal visueel ontwerp.</p>
-      <p> Dit is een <a href="#">text link</a>, deze kunnen worden toegepast in een alinea of</p>
-      <a href="#">Op zichzelf staand</a>
-      <p>Dit zijn twee afkortingen: <abbr title="Associate degree">Ad</abbr> <abbr title="Frontend Design & Development">FDND</abbr>. Qua opmaak veranderd er niets maar je kunt erover hoveren om de title te zien.</p>
-      <p>Dit is een <b>b(ring to attention)</b> element, gebruik deze om aandacht te vestigen zonder semantische waarde.</p>
-      <p>Dit is een inline <cite>cite</cite> element.</p>
-      <p>Dit is een inline code element: <code>mv ./public_html/super.html ./public_html/awesome.html</code>.</p>
-      <!-- <dfn>? -->
-      <p>Dit is een <em>em(phasize)</em> element, hiermee wordt semantische nadruk gelegd. Kan genest worden, elk niveau krijgt dan extra nadruk.</p>
-      <p>Dit hieronder is een image:</p>
-      <img src="https://via.placeholder.com/640x480r.png/050840/7ce7c9" alt="640x480 placeholder image">
-      <p>Dit is een <i>i(diomatic text)</i> element, gebruik deze voor technische terminologie, jargon etc. zonder semantische waarde.</p>
-      <p>Dit is een <mark>(ge)mark(eerd)</mark> stuk tekst.</p>
-      <p>Dit is een <q>inline quote</q>.</p>
-      <p>Dit is een <strong>strong(ly)</strong> benadrukt element met sterke urgentie qua semantiek.</p>
-      <p>Dit is <sup>superschrift</sup> en dit is <sub>subschrift</sub> voor voetnoten of verwijzing.</p>
-      <p>Dit is een time element <time datetime="2021-04-15">15 april 2021</time></p>
-
-      <ul>
-        <li>Dit is een</li>
-        <li>ongeordende</li>
-        <li>lijst items.</li>
-      </ul>
-
-      <ul class="flat">
-        <li>
-          <a href="#" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-              </svg> Link 1
-          </a>
-        </li>
-        <li>
-          <a href="#" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-              </svg> Link 2
-
-          </a>
-        </li>
-        <li>
-          <a href="#" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-              </svg> Link 3
-
-          </a>
-        </li>
-      </ul>
-
-      <ol>
-        <li>Dit is een</li>
-        <li>geordende</li>
-        <li>lijst items.</li>
-      </ol>
-    </section>
-
-    <!-- Buttons etc -->
-    <section id="forms">
-      <h2>Formulieren</h2>
-
-      <p>De opmaak van standaard formulieritems (inputs/textarea/buttons) staat in <code>fdnd.css</code> afwijkende zaken voor dit specifieke formulier staan in <code>local.css</code></p>
-      <p>Richtlijnen voor het opmaken van een formulier:</p>
-      <ul>
-        <li>Een kolom is meer dan genoeg</li>
-        <li>Verwijder niet essentiele velden</li>
-        <li>Gebruik een logische volgorde</li>
-        <li>Groepeer gerelateerde velden met een fieldset (en legend)</li>
-        <li>Labels staan boven formulier items</li>
-        <li>Gebruik geen placeholder tekst</li>
-        <li>Optionele velden worden gemarkeerd met de tekst 'optioneel'</li>
-        <li>Errors worden als lijst bovenaan weergegeven!</li>
-        <li>Errors worden als extra label onder het betreffende input fields geplaatst</li>
-        <li>Knoppen zijn beschrijvend ('meld je' aan ipv 'verder')</li>
-        <li>Primaire en secundaire knoppen zijn visueel onderscheiden</li>
-        <li>Knoppen staan onderaan links</li>
-
-      </ul>
-      <form>
-        <h3>Aanmeldformulier</h3>
-        <fieldset>
-          <legend>Persoonlijke informatie</legend>
-
-          <label for="firstname">Voornaam</label>
-          <input type="text" name="firstname" id="firstname" class="attention">
-          <label for="firstname" class="attention">We hebben je voornaam nodig!</label>
-
-          <label for="lastname">Achternaam</label>
-          <input type="text" name="lastname" id="lastname">
-        </fieldset>
-
-        <fieldset>
-          <legend>Contact informatie</legend>
-
-          <label for="address">Adres</label>
-          <input type="text" name="address" id="address">
-
-          <label for="city">Stad</label>
-          <input type="text" name="city" id="city">
-
-          <label for="zipcode">Postcode</label>
-          <input type="text" name="zipcode" id="zipcode">
-
-          <label for="country">Land <span>Optioneel</span></label>
-          <input type="text" name="country" id="country">
-        </fieldset>
-
-        <fieldset>
-          <label for="apply"></label>
-          <input type="submit" name="apply" id="apply" value="Meld je aan voor deze opleiding!">
-        </fieldset>
-      </form>
-
-      <form>
-        <label for="checkbox1">Checkbox</label>
-        <div>
-          <input type="checkbox" name="checkbox" id="checkbox1">
-          <input type="checkbox" name="checkbox" id="checkbox2" checked>
-          <input type="checkbox" name="checkbox" id="checkbox3" disabled>
-        </div>
-
-        <label for="color">Color</label>
-        <input type="color" name="color" id="color">
-
-        <label for="date">Date</label>
-        <input type="date" name="date" id="date">
-
-        <!-- <label for="datetime">Datetime</label>
-            <input type="datetime" name="datetime" id="datetime"> -->
-
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-
-        <label for="file">File</label>
-        <input type="file" name="file" id="file">
-
-        <label for="image">Image</label>
-        <input type="image" id="image" src="https://via.placeholder.com/200x40r.png/050840/7ce7c9" alt="image">
-
-        <label for="month">Month</label>
-        <input type="month" name="month" id="month">
-
-        <label for="number">Number</label>
-        <input type="number" name="number" id="number">
-
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-
-        <label for="radio1">Radio</label>
-        <div>
-          <input type="radio" name="radio" id="radio1">
-          <input type="radio" name="radio" id="radio2" checked>
-          <input type="radio" name="radio" id="radio3" disabled>
-        </div>
-
-        <label for="range">Range</label>
-        <input type="range" name="range" id="range">
-
-        <label for="search">Search</label>
-        <input type="search" name="search" id="search">
-
-        <label for="tel">Telephone</label>
-        <input type="tel" name="tel" id="tel">
-
-        <label for="text">Text</label>
-        <input type="text" name="text" id="text">
-
-        <label for="textarea">Textarea</label>
-        <textarea name="textarea" id="textarea"></textarea>
-
-        <label for="url">URL</label>
-        <input type="url" name="url" id="url">
-
-        <label for="week">Week</label>
-        <input type="week" name="week" id="week">
-
-        <label for="button">Button</label>
-        <button name="button" id="button">Button</button>
-
-        <label for="pill">Button</label>
-        <button class="pill" name="pill" id="pill">Button .pill</button>
-
-        <label for="reset">Reset</label>
-        <button type="reset" name="reset" id="reset">Reset</button>
-
-        <label for="submit">Submit</label>
-        <button type="submit" name="submit" id="submit">Submit</button>
-
-        <label for="disabled">Disabled</label>
-        <button disabled="disabled" name="disabled" id="disabled">Disabled</button>
-      </form>
-    </section>
-
-    <!-- Imagery -->
-    <section id="imagery">
-      <h2>Beeld</h2>
-
-      <p>Een selectie van beeldmateriaal dat gebruikt kan worden voor FDND.</p>
-      <img src="https://via.placeholder.com/640x480.png/050840/7ce7c9" alt="640x480 placeholder image">
-      <img src="https://via.placeholder.com/1024x768.png/050840/7ce7c9" alt="1024x768 placeholder image">
-      <img src="https://via.placeholder.com/1280x1024.png/050840/7ce7c9" alt="1280x1024 placeholder image">
-    </section>
-
-    <!-- About -->
-    <section id="about">
-      <h2>Over</h2>
-
-      <p>Deze styleguide is mede tot stand gekomen door <cite>Lukas van Driel</cite> van <a href="https://www.q42.nl/">Q42</a>! Hij deelde zijn werkwijze en een aantal styleguides van projecten die model hebben gestaan voor onze styleguide.</p>
-    </section>
-    
-  </main>
-
-  <footer>
-    <nav>
-      <h2>FDND microsites</h2>
-      <p>
-        FDND maakt gebruik van microsites. 
-        Microsites zijn kleine websites ter ondersteuning van een campagne, informatie over een product, dienst of voor een ander specifiek doel. 
-      </p>
-      <ul>
-        <li><a href="https://fdnd.nl">FDND.nl</a></li>
-        <li><a href="https://contact.fdnd.nl">Contact en routebeschrijving</a></li>
-        <li><a href="https://programma.fdnd.nl">Programma</a></li>
-        <li><a href="https://skc.fdnd.nl">Studie Keuze Check</a></li>
-        <li><a href="https://partners.fdnd.nl">Partners</a></li>
-        <li><a href="https://tasks.fdnd.nl">Leertaken</a></li>
-        <li><a href="https://styleguide.fdnd.nl">Styleguide</a></li>
-      </ul>
+  </head>
+  <body>      
+   <header class="header">
+        <logo>s
+            <img class="HVA" src="././logo (1).svg" >
+            <span class="LogoSpan">| Frontend Design & Developement</span>
+        </logo>
+        <nav>
+            <a style="text-decoration: none" href="#SamenwerkenFDND">Samenwerken met fdnd</a> 
+            <a style="text-decoration: none" href="#PartnersFDND">Partners</a> 
+            <a style="text-decoration: none" href="#WerkwijzeFDND">Werkwijze</a>   
+            <a style="text-decoration: none" href="#MicrositesFDND">Microsites</a> 
+            <a style="text-decoration: none" href="#Studentenwerk">Studentenwerk</a> 
     </nav>
-  </footer>
+    
+   
+         
+   </header> 
+   <div id="progressbar"></div>
+   <div id="scrollPath"></div>
+   <div class="w3-container">
+    <div class="navbar">
+        
 
-  <script>
-    document.querySelector('form').addEventListener('submit', event => event.preventDefault())
-    document.querySelectorAll('#colors article').forEach(color => {
-      color.addEventListener('click', event => {
-        navigator.clipboard.writeText(event.target.parentElement.dataset.color)
-      })
-    })
-  </script>
-</body>
+     <section class="NavBarSub">  
+        <img class="HVA" src="././logo (1).svg" >
+        
+        <span class="LogoSpan">| Frontend Design & Developement</span>
+     </section>
 
+     <details class="Details" style="text-decoration: none" class="MicrositeButton"> 
+  <summary id="SumId" style="text-decoration: none" > 
+      Microsites
+       
+  </summary>
+  <a class="Alist" style="text-decoration: none" href="#SamenwerkenFDND">Samenwerken met fdnd</a> 
+  <a class="Alist" style="text-decoration: none" href="#PartnersFDND">Partners</a> 
+  <a class="Alist" style="text-decoration: none" href="#WerkwijzeFDND">Werkwijze</a>   
+  <a class="Alist" style="text-decoration: none" href="#MicrositesFDND">Microsites</a> 
+  <a class="Alist" style="text-decoration: none" href="#Studentenwerk">Studentenwerk</a> 
+
+     </details>
+  
+     
+     
+     <section class="NavBarSubTwo">  
+        <a style="text-decoration: none" href="#SamenwerkenFDND">Samenwerken met fdnd</a> 
+        <a style="text-decoration: none" href="#PartnersFDND">Partners</a> 
+        <a style="text-decoration: none" href="#WerkwijzeFDND">Werkwijze</a>   
+        <a style="text-decoration: none" href="#MicrositesFDND">Microsites</a> 
+        <a style="text-decoration: none" href="#Studentenwerk">Studentenwerk</a> 
+     </section>
+ 
+    </div>
+      
+      <div class="main">
+        <p>Some text some text some text some text..</p>
+      </div> 
+    <main>  
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+            </style>  
+              
+       <section class="MainSectionOne">
+        
+        <section class="FirstSubSectionOne">  
+           
+        <img src="./vev.jpg" class="J">
+        <h2 class="SamenwerkenH"> Samenwerken</h2>
+        <article id="SamenwerkenFDND" class="Samenwerken">
+            <a id="SamenwerkenFDND"></a>
+      <h2>
+                Echte opdrachten voor echte opdrachtgevers</h2>
+
+      <h4>  Studenten werken bij FDND aan echte opdrachten voor echte opdrachtgevers. Dit doen<br>
+             ze in een studiomodel aan de hand van een agile organisatiemodel en <br>
+             <body>  uit het vakgebied. Een rijke, praktijke gerichte leeromgeving, waarin de <br>
+             studenten worden voorbereid op het werken als Frontender.<br>
+      </h4>
+        <h2>  Convenanten</h2>
+        <h4>   
+        We sluiten convenanten af met meerdere partijen in het bedrijfsleven. In een convenant
+         wordt wederzijds de intentie tot intensieve samenwerking voor een periode van twee 
+         jaar, de nominale lengte van de opleiding, vastgelegd. Met het aangaan van een 
+         convenant wordt een bedrijf partner in education
+            </h4>
+        </article>
+       </section>
+       
+       <section class="SecondSubSectionOne">    
+        <h2 class="PartnersH"> Onze Partners
+        </h2>
+        <article class="Partners" id="PartnersFDND">
+        <h3>   Projectpartners 
+
+        </h3>
+            <h4> Onze studenten werken aan echte betekenisvolle opdrachten voor onze projectpartners. 
+        Deze opdrachten bestaan uit verschillende beroepstaken. De beroepstaken vertalen we naar 
+        leertaken en maken ze daarmee geschikt voor het curriculum. Studenten kiezen aan welke 
+        leertaken ze werken en met welke opdrachtgever ze dus gaan samenwerken. Zoals in het 
+        convenant is aangegeven zijn de projectpartners betrokken bij het onderwijs. In de rol 
+        van product owner werken ze mee aan kickoffs en geven feedback op het werk van studenten.
+        </h4>
+        <h3>Onze projectpartners
+
+        </h3>
+            <section class="PartnerBox"> 
+                <a id="PartnersFDND"></a>
+                <ul class="listBox" style="list-style: none; ">
+                 <li> <img src="./oba.png">  </li>
+                 <li> <img src="./gemeente-amsterdam.png">  </li>
+                 <li> <img src="./ggnb.png"> </li>
+                 <li> <img src="././scroll-book.png"> </li>
+                </ul>
+            
+        </section>
+        <h3>Partners uit het werkveld
+
+        </h3>
+        <h4>   Met partners uit het werkveld werken we samen aan de ontwikkeling en <br>
+            uitvoering van het curriculum. Experts verzorgen bij FDND gastcolleges, talks en/of <br>
+            nemen de rol aan van co-teachers naast docenten. <br>
+            Daarnaast begeleiden de bedrijven studenten op locatie in de vorm van (mini) stages. <br>
+            In een convenant committeren de partners zich aan deze bijdragen aan het onderwijs.  <br>
+            Op onze beurt committeren wij ons aan de bedrijven door een context te bieden waar <br>
+            de bedrijven en studenten op een betekenisvolle wijze leren kennen.
+            </h4> 
+
+        <h3>Talks en workshops</h3> 
+        <h4>
+            Om studenten uit te rusten met de kennis en vaardigheid om leertaken <br>
+            te volbrengen bieden experts uit het werkveld talks aan met <br>
+            ondersteunende informatie, en worden workshops georganiseerd voor <br>
+            de behandeling van terugkerende taakaspecten.<br>
+        </h4>
+            <h3>Co-teaching
+
+            </h3>
+        <h4> Experts zijn als co-teacher, naast de de docent, voor de duur <br> 
+            van een semester, nauw betrokken bij het lesgeven. Ze geven instructie, <br> 
+            feedback, doen mee aan de daily standup, code reviews en zijn betrokken <br> 
+            bij de assessments. De ervaring bij CMD Amsterdam met deze werkwijze leert <br> 
+            dat deze inzet van experts veel voordelen biedt; Studenten leren in het <br> 
+            dagelijks onderwijs van experts uit het vakgebied. studenten en experts <br> 
+            leren elkaar goed kennen, wat kan helpen bij het aangaan van een stage en/of<br> 
+                aanstelling. Experts uit het vakgebied kunnen een andere invulling geven aan <br> 
+                hun dagelijkse werkzaamheden geven, en daarmee hun werk gevarieerder en leuker<br> 
+                maken. Docenten blijven door de inzet van de experts beter op de hoogte van <br> 
+                ontwikkeling in het vakgebied. 
+                </h4>
+            
+
+        <h3> Stages </h3> 
+        <h4> Bedrijven bieden ruimte aan onze studenten om stage te lopen. <br>
+            Dat kan bijvoorbeeld tijdens het laatste semester waar ruimte is <br>
+            voor studenten om zelf invulling te geven aan wat zij willen gaan <br>
+            leren, dat kan bijvoorbeeld in de vorm van een stage als Frontender<br>
+                bij een internetbureau. 
+            </h4>
+            
+        <h3>
+            Onze werkveldpartners
+        </h3>
+                <section class="WerkveldpartnerBox"> 
+                    <ul class="WerkveldpartnerBoxList" style="list-style: none; " >
+                        <li> <img src="./voorhoede.png"> 
+                        </li>
+                        <li> <img src="./q42.png"> 
+                        </li>
+                        <li> <img src=".//grrr.png"> 
+                        </li>
+                        <li> <img src="./jungleminds.png"> 
+                        </li>
+                        <li> <img src="./dept.png"> 
+                        </li>
+                        <li> <img src="./icatt.png"> 
+                        </li>
+                        <li> <img src="./shcc.png"> 
+                        </li>   
+                        <li> <img src="./driebit.png"> 
+                        </li>   
+                        <li> <img src="./funda.png"> 
+                        </li>   
+                </ul>
+            </section>
+                
+                     
+        </article>
+       </section>
+    </section>
+
+    <section class="MainSectionTwo">  
+       <section>   
+        <h2 class="WerkwijzeH"> Werkwijze<h2>
+        <article class="Werkwijze" id="WerkwijzeFDND">
+             
+           
+            <section class="WerkwijzeSubSection">  
+                    <h4>
+                        De opleiding is verdeeld in sprints van drie weken. Elke sprint heeft 
+                        een thema waarin bijbehorende opdrachten worden aangeboden. Samen met 
+                        de opdrachtgever bepalen we in een aantal sessies in welke sprint een 
+                        opdracht goed past.  Wij vertalen dan de opdracht naar een leertaak waar 
+                        een student aan kan gaan werken. Tijdens de betreffende sprint is de 
+                        opdrachtgever actief betrokken als product owner en geeft vanuit die 
+                        rol feedback op het geleverde werk.
+                    </h4>
+                    <img class="WerkwijzeFoto" src="./scree.png">
+                </section>
+
+                    <a href="https://partners.fdnd.nl/draaiboek.html">🔗Draaiboek opdrachten vertalen naar leertaken.</a>
+                    <a href="https://programma.fdnd.nl/">🔗FDND semesters,sprints en bijbehorende thema's.</a>
+        </article>
+        <h2 class="StudentenWerkH">  Studentenwerk<h2>
+        <article class="Studentenwerk" id="Studentenwerk">
+          <img class="ImageStudenten" src="./../the-startup-fdnd-partners/stud.jpg">
+          <h4> 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, 
+            repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+ 
+          </h4>
+
+                     
+        </article>
+       </section>
+
+       <section>  
+        <h2 class="MicrositesH"> FDND Microsites<h2>
+       
+        <article>
+                <p>FDND maakt gebruik van microsites. Microsites zijn kleine websites ter ondersteuning <br>
+                    van een campagne, informatie over een product, dienst of voor een ander specifiek doel. </p>
+                <ul style="list-style: none;" id="MicrositeBox" >
+                    <li>     <a  style="text-decoration: none" href="https://qalkem.github.io/the-startup-fdnd-partners/">FDND.nl</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://contact.fdnd.nl/">Contact en routebeschrijving</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://programma.fdnd.nl/">Programma</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://skc.fdnd.nl/">Studie keuze check</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://partners.fdnd.nl/">Partners</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://tasks.fdnd.nl/">Leertaken</a> 
+                    </li>
+                    <li>     <a style="text-decoration: none" href="https://styleguide.fdnd.nl/">Styleguide</a> 
+                    </li>
+                </ul>
+                    
+        </article> 
+       </section>  
+       
+    </section>  
+
+    </main>
+  </body>
+  <script src="./../the-startup-fdnd-partners/scripts/script.js"> </script>
 </html>
