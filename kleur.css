@@ -27,8 +27,14 @@ body{
 }
 
 
-
-
+main > article,
+main > section {
+  margin: 2rem 0 2rem 0;
+  padding: 2rem;
+  background: var(--turquoise);
+  color: var(--blueberry);
+  border-radius: var(--rounded);
+}
 main > article > h2:first-of-type,
 main > section > h2:first-of-type {
   margin: -2rem 0 2rem -2rem;
